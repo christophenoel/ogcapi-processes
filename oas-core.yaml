@@ -36,7 +36,7 @@ IOSchema:
       type: string
     default: {}
     externalDocs:
-      $ref: 
+      $ref: #/definitions/ExternalDocumentation
 ExternalDocumentation:
   type: object
   required:
