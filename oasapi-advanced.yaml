@@ -1,0 +1,37 @@
+Schema:
+  type: object
+  properties:
+    multipleOf:
+      type: number
+      minimum: 0
+      exclusiveMinimum: true
+    maximum:
+      type: number
+    exclusiveMaximum:
+      type: boolean
+      default: false
+    minimum:
+      type: number
+    exclusiveMinimum:
+      type: boolean
+      default: false
+    maxLength:
+      type: integer
+      minimum: 0
+    minLength:
+      type: integer
+      minimum: 0
+      default: 0
+    pattern:
+      type: string
+      format: regex
+    uniqueItems:
+      type: boolean
+      default: false
+    maxProperties:
+      type: integer
+      minimum: 0
+    minProperties:
+      type: integer
+      minimum: 0
+      default: 0
